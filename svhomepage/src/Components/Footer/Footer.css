@@ -1,0 +1,162 @@
+.maincont2{
+    margin: 3rem;
+    margin-right: 2rem;
+    margin-left: 5rem;
+    /* background-image: url(../maincont.png); */
+    
+  }
+  .image{
+    height: 400px;
+    width:600px;
+    border-radius: 60%;
+    
+    border-style: double;
+  }
+  .maincont1{
+    width: 30vw;
+    margin-right: 15rem;
+    margin: 3rem;
+    margin-left: 5rem;
+    font-size: 2rem;
+  }
+  .maincont {
+    width: 90vw;
+    display: flex;
+  
+    margin: 2rem;
+    justify-content: space-between;
+  
+  }
+  .second{
+    /* width: 40rem; */
+    
+    font-size: 40px;
+     color: #7a3636;
+     font-weight: bold;
+     
+  }
+  .first{
+    /* margin-left: 50px; */
+    font-size: 40px;
+    font-weight: 700;
+    color: #912121;
+  }
+  .specify{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: #912121; */
+    gap: 25px;
+  }
+  .about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .describe{
+    font-size: 30px;
+    font-weight: 400;
+    color: brown;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+
+
+  }
+  .poster{
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    /* background-color: black; */
+  }
+  .kids{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    /* margin-right: 15rem; */
+    margin: 2rem;
+    /* margin-left: 5rem; */
+  }
+  .content{
+    font-size: 40px;
+    font-weight: 500;
+    /* margin: 3rem; */
+    /* margin-right: 2rem; */
+    /* margin-left: 5rem; */
+  
+  }
+  .footers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 30px; */
+    justify-content: space-around;
+    margin: 2rem;
+  }
+  .popular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .line{
+   
+    height: 3px;
+    width: 410px;
+    background-color: black;
+    /* color: black; */
+  }
+  .students{
+    height: 200px;
+    width:350px;
+    background-color:rgb(180, 130, 130) ;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(22, 8, 8)
+  }
+  .image_card-img-top{
+    width:250px;
+    height: 200px;
+  }
+  .card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+/* background-color: brown; */
+  }
+  .cards{
+    border-style:5px solid black;
+    background-color: rgb(223, 123, 140);
+border-color:  black;
+  }
+  .teams{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .both{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+  }
