@@ -53,19 +53,19 @@ const headersData = [
   },
   {
     label: "Products",
-    href: "/programs",
+    href: "/products",
   },
   {
     label: "Library",
-    href: "/programs",
+    href: "/library",
   },
   {
     label: "Team",
-    href: "/contact",
+    href: "/team",
   },
   {
     label: "Contact",
-    href: "/logout",
+    href: "/contact",
   },
 ];
 export default function Header() {
