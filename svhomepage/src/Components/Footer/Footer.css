@@ -1,16 +1,11 @@
-.maincont2{
-    margin: 3rem;
-    margin-right: 2rem;
-    margin-left: 5rem;
-    /* background-image: url(../maincont.png); */
-    
-  }
-  .image{
-    height: 400px;
-    width:600px;
-    border-radius: 60%;
-    
-    border-style: double;
+@media (min-width: 800px) and (max-width: 1500px){
+  .maincont {
+    width: 90vw;
+    display: flex;
+  
+    margin: 2rem;
+    justify-content: space-between;
+  
   }
   .maincont1{
     width: 30vw;
@@ -19,13 +14,25 @@
     margin-left: 5rem;
     font-size: 2rem;
   }
-  .maincont {
-    width: 90vw;
-    display: flex;
-  
-    margin: 2rem;
-    justify-content: space-between;
-  
+  .maincont2{
+    margin: 3rem;
+    margin-right: 2rem;
+    margin-left: 5rem;
+    /* background-image: url(../maincont.png); */
+    
+  }
+  .first{
+    /* margin-left: 50px; */
+    font-size: 40px;
+    font-weight: 700;
+    color: #912121;
+  }
+  .line{
+   
+    height: 3px;
+    width: 410px;
+    background-color: black;
+    /* color: black; */
   }
   .second{
     /* width: 40rem; */
@@ -35,12 +42,6 @@
      font-weight: bold;
      
   }
-  .first{
-    /* margin-left: 50px; */
-    font-size: 40px;
-    font-weight: 700;
-    color: #912121;
-  }
   .specify{
     display: flex;
     flex-direction: row;
@@ -48,6 +49,29 @@
     /* background-color: #912121; */
     gap: 25px;
   }
+  .students{
+    height: 200px;
+    width:350px;
+    background-color:rgb(180, 130, 130) ;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(22, 8, 8)
+  }
+  .image{
+    height: 400px;
+    width:600px;
+    border-radius: 60%;
+    
+    border-style: double;
+  }
+  
+ 
+
+
+ 
   .about{
     display: flex;
     align-items: center;
@@ -93,14 +117,7 @@
     /* margin-left: 5rem; */
   
   }
-  .footers {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* margin-top: 30px; */
-    justify-content: space-around;
-    margin: 2rem;
-  }
+
   .popular{
     display: flex;
     align-items: center;
@@ -109,24 +126,21 @@
     font-size: 40px;
     font-weight: 700;
   }
-  .line{
-   
-    height: 3px;
-    width: 410px;
-    background-color: black;
-    /* color: black; */
-  }
-  .students{
-    height: 200px;
-    width:350px;
-    background-color:rgb(180, 130, 130) ;
-    border-radius: 30%;
+  .footers {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    color:rgb(22, 8, 8)
+    /* margin-top: 30px; */
+    justify-content: space-around;
+    margin: 2rem;
   }
+  .cards{
+    border-style:5px solid black;
+    background-color: rgb(223, 123, 140);
+border-color:  black;
+  }
+ 
+ 
   .image_card-img-top{
     width:250px;
     height: 200px;
@@ -140,11 +154,7 @@
     font-weight: 700;
 /* background-color: brown; */
   }
-  .cards{
-    border-style:5px solid black;
-    background-color: rgb(223, 123, 140);
-border-color:  black;
-  }
+ 
   .teams{
     display: flex;
     align-items: center;
@@ -160,3 +170,336 @@ border-color:  black;
     justify-content: space-around;
     text-align: center;
   }
+  .imageajay{
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+  }
+  .imageankit{
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+  }
+  .name{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .co-founder{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .contents{
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #912121;
+
+  }
+  .contactus{
+   
+   
+  }
+  .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 2rem;
+  }
+  .image_contact{
+    width:500px;
+    height: 300px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    background-color: #912121;
+    border-style:double ;
+    margin-left: 435px;
+  }
+  .contactcard{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 2rem;
+   
+  }
+  .mobile{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .address{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .shuniya{
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+    background-color: rgb(84, 137, 155);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top:2rem;
+    /* background-color: ; */
+    height: 100px;
+
+  }
+}
+@media (max-width: 480px) {
+  .maincont {
+    width: 90vw;
+    display: flex;
+  
+    margin: 1.5rem;
+    justify-content: space-between;
+    /* background-color: red; */
+  
+  }
+  .maincont1{
+    width: 30vw;
+    /* margin-right: 15rem; */
+    /* margin: 3rem; */
+    /* margin-left: 5rem; */
+    font-size: 1rem;
+    /* background-color: blue; */
+  }
+  .maincont2{
+    /* margin: 1rem; */
+    /* margin-right: 1rem; */
+    /* margin-left: 5rem; */
+/* background-color: chartreuse;     */
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+  .first{
+    /* margin-left: 50px; */
+    font-size: 40px;
+    font-weight: 700;
+    color: #912121;
+  }
+  .line{
+   
+    height: 3px;
+    width: 150px;
+    background-color: black;
+    /* color: black; */
+  }
+  .second{
+    /* width: 40rem; */
+    
+    font-size: 30px;
+     color: #7a3636;
+     font-weight: bold;
+     
+  }
+  .specify{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: #912121; */
+    gap: 15px;
+  }
+  .students{
+    height: 100px;
+    width:100px;
+    background-color:rgb(180, 130, 130) ;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(22, 8, 8);
+    font-size: 10px;
+  }
+  .image{
+    height: 200px;
+    width:250px;
+    border-radius: 60%;
+    
+    border-style: double;
+  }
+  .about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .describe{
+    font-size: 30px;
+    font-weight: 400;
+    color: brown;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.5rem;
+
+  }
+  .poster{
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    /* background-color: black; */
+  }
+  .kids{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* margin-right: 15rem; */
+    margin: 1.5rem;
+    /* margin-left: 5rem; */
+  }
+  .content{
+    font-size: 30px;
+    font-weight: 500;
+    /* margin: 3rem; */
+    /* margin-right: 2rem; */
+    /* margin-left: 5rem; */
+  }
+  .popular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .footers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 30px; */
+    justify-content: space-around;
+    margin: 1.5rem;
+  }
+  .cards{
+    border-style:5px solid black;
+    background-color: rgb(223, 123, 140);
+border-color:  black;
+  }
+  .image_card-img-top{
+    width:140px;
+    height: 140px;
+  }
+  .card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 700;
+    gap:5px;
+/* background-color: brown; */
+  }
+  .teams{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .both{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    /* background-color: blanchedalmond; */
+  }
+  .imageajay{
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+  }
+  .imageankit{
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+  }
+  .name{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .co-founder{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .contents{
+    font-size: 15px;
+    font-weight: 500;
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
+    color: #912121;
+
+  }
+  .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 1.5rem;
+  }
+  .image_contact{
+    width:400px;
+    height: 200px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1.5rem;
+    background-color: #912121;
+    border-style:double ;
+    margin-left: 40px;
+  }
+  .contactcard{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 1.5rem;
+   
+  }
+  .mobile{
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .address{
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .shuniya{
+    
+    color:white;
+    background-color: rgb(84, 137, 155);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top:1.5rem;
+    /* background-color: ; */
+    height: 100px;
+
+  }
+ 
+  
+}

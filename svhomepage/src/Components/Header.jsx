@@ -48,19 +48,23 @@ const useStyles = makeStyles(() => ({
 }));
 const headersData = [
   {
-    label: "Our Courses",
+    label: "Home",
     href: "/listings",
   },
   {
-    label: "Programs",
+    label: "Products",
     href: "/programs",
   },
   {
-    label: "Contact Us",
+    label: "Library",
+    href: "/programs",
+  },
+  {
+    label: "Team",
     href: "/contact",
   },
   {
-    label: "Log Out",
+    label: "Contact",
     href: "/logout",
   },
 ];
