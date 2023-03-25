@@ -1,3 +1,4 @@
+@media (min-width: 800px) and (max-width: 1500px){
 .library{
     display: flex;
     justify-content: center;
@@ -88,3 +89,96 @@
     margin: 50px;
 
 }
+}
+@media  (max-width: 480px){
+    .library{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .library_about{
+        font-size: 30px;
+        font-weight: 700;
+        color: #912121;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .image_library{
+        height: 150px;
+        width: 200px;
+        border-radius: 30%;
+        display: flex;
+        justify-content: center;
+        /* text-align: center; */
+        align-items: center;
+        margin-top: 10rem;
+        /* margin-bottom: 5rem; */
+        /* margin-left: 425px; */
+        /* margin-left: 20px; */
+        border-style: double;
+    }
+    .library_content{
+        display: flex;
+        flex-direction: row;
+    }
+    .job{
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 50px;
+        background-color: cadetblue;
+        width:200px;
+        height: 70px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-style: double;
+    }
+    .training{
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 200px;
+        background-color: cadetblue;
+        width:200px;
+        height: 70px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-style: double;
+    }
+    .learn{
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 350px;
+        background-color: cadetblue;
+        width:250px;
+        height: 90px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-style: double;
+    }
+    .contents_library{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .laptop{
+        font-size: 20px;
+        font-weight: 700;
+        margin: 50px;
+    
+    }
+    }
